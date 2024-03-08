@@ -1,6 +1,19 @@
 body {
+    margin: 0;
+    padding: 0;
     background-image: url("../img/Mask.png");
     background-repeat: repeat-y;
     background-size: fill;
     background-position: center center;
+}
+.nav_section{
+    background-image: url('../img/Rectangle\ 1099.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 80px;
+    min-height: 400px;
+}
+
+.gradient_text{
+    @apply bg-gradient-to-r from-yellow-500 to-orange-400 text-16 font-bold text-transparent bg-clip-text
 }
