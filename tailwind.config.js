@@ -82,7 +82,7 @@ module.exports = {
           DEFAULT: '#F3F4F8',
           blues: '#EDECFE',
           deep: '#8F99AD',
-          light: '#EEF0F3'
+          light: '#343434'
         },
         border: {
           DEFAULT: '#8D91A5',
@@ -95,7 +95,7 @@ module.exports = {
           soft: 'rgba(255, 133, 45, 0.05)'
         },
         dark: '#21214E',
-        regular: '#5C5D76',
+        regular: '#C6C6C6',
         disabled: '#F8F9FB',
         perple: '#5A49B4',
         meganta: '#B43490',
@@ -129,6 +129,7 @@ module.exports = {
         24: '24px',
         32: '32px',
         40: '40px',
+        48:'48px',
         52:'52px',
         60:'60px',
         80:'80px',
