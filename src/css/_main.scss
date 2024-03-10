@@ -1,53 +1,62 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url("../img/Mask.png");
-    background-repeat: repeat-y;
-    background-size: fill;
-    background-position: center center;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/Mask.png");
+  background-repeat: repeat-y;
+  background-size: fill;
+  background-position: center center;
 }
-.nav_section{
-    background-image: url('../img/Rectangle\ 1099.png');
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    width: 100px;
-    min-height: 400px;
+.nav_section {
+  background-image: url("../img/Rectangle\ 1099.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  width: 100px;
+  min-height: 400px;
 }
-.language_section{
-    background-image: url('../img/Rectangle\ 1099.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    width: 100px;
-    min-height: 400px;
+.language_section {
+  background-image: url("../img/Rectangle\ 1099.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100px;
+  min-height: 400px;
 }
-.gradient_text{
-    @apply bg-gradient-to-r from-yellow-500 to-orange-400 text-16 font-bold text-transparent bg-clip-text
+.title_text {
+  @apply my-5 text-32 font-bold text-white md:my-10 md:text-48;
 }
-.gradient_bg{
-    @apply bg-gradient-to-r from-yellow-400 to-orange-500
+.gradient_text {
+  @apply bg-gradient-to-r from-yellow-500 to-orange-400 bg-clip-text text-16 font-bold text-transparent;
 }
-.blog_img{
-    @apply h-auto max-w-full rounded-lg object-cover object-center;
+.gradient_bg {
+  @apply bg-gradient-to-r from-yellow-400 to-orange-500;
+}
+.portfolio_img {
+  @apply h-auto max-w-full object-cover object-center;
+}
+.blog_img {
+  @apply h-auto max-w-full object-cover object-center;
+}
+.basic_grid_class {
+  @apply grid grid-cols-1 gap-4 md:grid-cols-2;
 }
 .image-container {
-    position: relative;
-    display: inline-block;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    transition: opacity 0.3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-  }
-  .image-container:hover .overlay {
-    opacity: 1;
-  }
+  position: relative;
+  display: inline-block;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.image-container:hover .overlay {
+  opacity: 1;
+}

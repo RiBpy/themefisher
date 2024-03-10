@@ -8,24 +8,28 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
   </head>
   <body class="bg-black text-white">
-    <div class="container mx-auto w-full py-20">
+    <div class="container mx-auto w-full py-6 lg:py-20">
       <div>
         <div>
           <img src="img/Home.png" alt="Home" />
         </div>
-        <div class="px-24">
+        <div class="px-6 lg:px-24">
           <div
             class="-mt-6 min-h-[100vh] w-full bg-brand shadow-box-shadow-white"
           >
             <!-- Top section name and buttons -->
-            <div class="flex w-full items-center bg-brand-secondary px-28 py-3">
-              <div class="md:w-[37%]">
+            <div
+              class="flex w-full flex-col items-center gap-5 bg-brand-secondary px-6 py-3 md:flex-row lg:px-28"
+            >
+              <div class="w-full md:w-[37%]">
                 <h3 class="text-32 font-medium">
                   Daryl <span class="text-yellow">Smith</span>
                 </h3>
                 <p class="text-gray-deep">UI/UX designer</p>
               </div>
-              <div class="flex items-center justify-between gap-2 md:w-[63%]">
+              <div
+                class="flex w-full items-center justify-between gap-2 md:w-[63%]"
+              >
                 <div class="flex items-center gap-5">
                   <div
                     class="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-r from-yellow-400 to-orange-500"
@@ -54,10 +58,10 @@
                 </div>
               </div>
             </div>
-            <div class="flex">
+            <div class="flex flex-col lg:flex-row">
               <!-- Top left image and nav section-->
               <div>
-                <div class="flex items-end">
+                <div class="flex items-end justify-center lg:justify-start">
                   <div class="nav_section">
                     <div
                       class="flex h-full flex-col items-center justify-center gap-16"
@@ -253,13 +257,13 @@
                 </div>
               </div>
               <!-- Top right-introduction section -->
-              <div>
+              <div class="pb-5 md:pb-10">
                 <div class="flex h-max">
                   <div class="ps-10 pt-10">
                     <h5 class="gradient_text text-16 font-bold uppercase">
                       Introduction
                     </h5>
-                    <h3 class="text-48 font-bold">
+                    <h3 class="text-32 font-bold lg:text-48">
                       I'm a Creative Developer & UI/UX Design Expert
                     </h3>
                     <p class="text-bold text-16">
@@ -312,8 +316,8 @@
                   </div>
                 </div>
                 <!-- Resume section -->
-                <div class="p-10">
-                  <h3 class="my-10 text-48 font-bold text-white">Resume</h3>
+                <div class="p-5 md:p-10">
+                  <h3 class="title_text">Resume</h3>
                   <div class="space-y-5">
                     <!-- Educational qualification  -->
                     <div>
@@ -352,10 +356,10 @@
                         Education
                       </h5>
                       <div class="my-10 flex h-full gap-5">
-                        <div class="flex items-start">
+                        <div class="flex h-full items-start">
                           <svg
                             width="23"
-                            height="425"
+                            height="100%"
                             viewBox="0 0 23 425"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -388,7 +392,7 @@
                               </h4>
                             </div>
                             <div
-                              class="w-full rounded-md border border-border bg-black p-6"
+                              class="w-full rounded-md border border-border bg-black p-2 md:p-6"
                             >
                               <h4 class="gradient_text text-18 font-bold">
                                 Harvard University
@@ -396,7 +400,7 @@
                               <p class="text-12 font-normal text-gray-deep">
                                 B.A. and M.S., Computer Science
                               </p>
-                              <hr class="border-1 my-5 border-border" />
+                              <hr class="border-1 my-2 border-border md:my-5" />
                               <p class="font-nomal text-14 text-white">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipisicing elit. Ab aut commodi earum eligendi
@@ -414,7 +418,7 @@
                               </h4>
                             </div>
                             <div
-                              class="w-full rounded-md border border-border bg-black p-6"
+                              class="w-full rounded-md border border-border bg-black p-2 md:p-6"
                             >
                               <h4 class="gradient_text text-18 font-bold">
                                 Helwan University
@@ -422,7 +426,7 @@
                               <p class="text-12 font-normal text-gray-deep">
                                 Bachelor Degree
                               </p>
-                              <hr class="border-1 my-5 border-border" />
+                              <hr class="border-1 my-2 border-border md:my-5" />
                               <p class="font-nomal text-14 text-white">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipisicing elit. Ab aut commodi earum eligendi
@@ -470,7 +474,7 @@
                         </div>
                         Work History
                       </h5>
-                      <div class="my-10 flex h-full gap-5">
+                      <div class="my-5 flex h-full gap-5 md:my-10">
                         <div class="flex items-start">
                           <svg
                             width="23"
@@ -507,7 +511,7 @@
                               </h4>
                             </div>
                             <div
-                              class="w-full rounded-md border border-border bg-black p-6"
+                              class="w-full rounded-md border border-border bg-black p-2 md:p-6"
                             >
                               <h4 class="gradient_text text-18 font-bold">
                                 UI/UX design
@@ -515,7 +519,7 @@
                               <p class="text-12 font-normal text-gray-deep">
                                 Web site design
                               </p>
-                              <hr class="border-1 my-5 border-border" />
+                              <hr class="border-1 my-2 border-border md:my-5" />
                               <p class="font-nomal text-14 text-white">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipisicing elit. Ab aut commodi earum eligendi
@@ -533,7 +537,7 @@
                               </h4>
                             </div>
                             <div
-                              class="w-full rounded-md border border-border bg-black p-6"
+                              class="w-full rounded-md border border-border bg-black p-2 md:p-6"
                             >
                               <h4 class="gradient_text text-18 font-bold">
                                 Junior Web designers
@@ -541,7 +545,7 @@
                               <p class="text-12 font-normal text-gray-deep">
                                 Product designer
                               </p>
-                              <hr class="border-1 my-5 border-border" />
+                              <hr class="border-1 my-2 border-border md:my-5" />
                               <p class="font-nomal text-14 text-white">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipisicing elit. Ab aut commodi earum eligendi
@@ -556,8 +560,8 @@
                   </div>
                 </div>
                 <!-- Skills section -->
-                <div class="space-y-5 p-10">
-                  <h3 class="my-10 text-48 font-bold text-white">Skills</h3>
+                <div class="space-y-5 p-5 md:p-10">
+                  <h3 class="title_text">Skills</h3>
                   <div>
                     <div class="flex justify-between text-24">
                       <h5 class="text-regular">UI/UX Design</h5>
@@ -635,12 +639,10 @@
                   </div>
                 </div>
                 <!-- Portfolio section -->
-                <div class="space-y-5 p-10">
-                  <h3 class="my-10 text-48 font-bold text-white">Portfolio</h3>
-                  <div class="rounded-md bg-black p-5">
-                    <ul
-                      class="-mb-px flex flex-wrap text-center text-sm font-medium"
-                    >
+                <div class="space-y-5 p-8 md:p-10">
+                  <h3 class="title_text">Portfolio</h3>
+                  <div class="rounded-md bg-black">
+                    <ul class="flex flex-wrap text-center text-sm font-medium">
                       <li class="me-2" role="presentation">
                         <button
                           type="button"
@@ -692,15 +694,15 @@
                         </button>
                       </li>
                     </ul>
-                    <div id="tab-content" class="rounded-lg p-4">
+                    <div id="tab-content" class="mt-5 rounded-lg">
                       <div id="all_tab" class="tab-content">
                         <!-- Div of Images -->
-                        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div class="basic_grid_class">
                           <div class="grid gap-4">
                             <div class="image-container">
                               <img
-                                class="h-auto max-w-full rounded-lg object-cover object-center"
-                                src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
+                                class="portfolio_img"
+                                src="img/Rectangle 12663.png"
                                 alt="gallery-photo"
                               />
                               <div class="overlay flex flex-col">
@@ -713,8 +715,8 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12662.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -730,7 +732,7 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
+                                  class="portfolio_img"
                                   src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
                                   alt="gallery-photo"
                                 />
@@ -749,8 +751,8 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="img/Rectangle 12662.png"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12667.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -766,8 +768,8 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12665.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -783,8 +785,25 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://docs.material-tailwind.com/img/team-3.jpg"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12664.png"
+                                  alt="gallery-photo"
+                                />
+                                <div class="overlay flex flex-col">
+                                  <h3 class="text-xl font-bold">
+                                    Figma Mockup
+                                  </h3>
+                                  <p class="text-12 font-normal text-gray-deep">
+                                    Figma mockup PSD editable
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="image-container">
+                                <img
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12666.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -802,12 +821,25 @@
                       </div>
                       <div id="graphic_design" class="tab-content hidden">
                         <!-- Div of Images -->
-                        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div class="basic_grid_class">
                           <div class="grid gap-4">
+                            <div class="image-container">
+                              <img
+                                class="portfolio_img"
+                                src="img/Rectangle 12663.png"
+                                alt="gallery-photo"
+                              />
+                              <div class="overlay flex flex-col">
+                                <h3 class="text-xl font-bold">Figma Mockup</h3>
+                                <p class="text-12 font-normal text-gray-deep">
+                                  Figma mockup PSD editable
+                                </p>
+                              </div>
+                            </div>
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
+                                  class="portfolio_img"
                                   src="img/Rectangle 12662.png"
                                   alt="gallery-photo"
                                 />
@@ -824,25 +856,8 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
-                                  alt="gallery-photo"
-                                />
-                                <div class="overlay flex flex-col">
-                                  <h3 class="text-xl font-bold">
-                                    Figma Mockup
-                                  </h3>
-                                  <p class="text-12 font-normal text-gray-deep">
-                                    Figma mockup PSD editable
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div class="image-container">
-                                <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://docs.material-tailwind.com/img/team-3.jpg"
+                                  class="portfolio_img"
+                                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -857,24 +872,11 @@
                             </div>
                           </div>
                           <div class="grid gap-4">
-                            <div class="image-container">
-                              <img
-                                class="h-auto max-w-full rounded-lg object-cover object-center"
-                                src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
-                                alt="gallery-photo"
-                              />
-                              <div class="overlay flex flex-col">
-                                <h3 class="text-xl font-bold">Figma Mockup</h3>
-                                <p class="text-12 font-normal text-gray-deep">
-                                  Figma mockup PSD editable
-                                </p>
-                              </div>
-                            </div>
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12667.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -890,8 +892,42 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12665.png"
+                                  alt="gallery-photo"
+                                />
+                                <div class="overlay flex flex-col">
+                                  <h3 class="text-xl font-bold">
+                                    Figma Mockup
+                                  </h3>
+                                  <p class="text-12 font-normal text-gray-deep">
+                                    Figma mockup PSD editable
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="image-container">
+                                <img
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12664.png"
+                                  alt="gallery-photo"
+                                />
+                                <div class="overlay flex flex-col">
+                                  <h3 class="text-xl font-bold">
+                                    Figma Mockup
+                                  </h3>
+                                  <p class="text-12 font-normal text-gray-deep">
+                                    Figma mockup PSD editable
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="image-container">
+                                <img
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12666.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -908,13 +944,13 @@
                         </div>
                       </div>
                       <div id="mobile_app" class="tab-content hidden">
-                        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div class="basic_grid_class">
                           <div class="grid gap-4">
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="img/Rectangle 12662.png"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12667.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -930,8 +966,8 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12665.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -947,8 +983,25 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://docs.material-tailwind.com/img/team-3.jpg"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12664.png"
+                                  alt="gallery-photo"
+                                />
+                                <div class="overlay flex flex-col">
+                                  <h3 class="text-xl font-bold">
+                                    Figma Mockup
+                                  </h3>
+                                  <p class="text-12 font-normal text-gray-deep">
+                                    Figma mockup PSD editable
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="image-container">
+                                <img
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12666.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -965,8 +1018,8 @@
                           <div class="grid gap-4">
                             <div class="image-container">
                               <img
-                                class="h-auto max-w-full rounded-lg object-cover object-center"
-                                src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
+                                class="portfolio_img"
+                                src="img/Rectangle 12663.png"
                                 alt="gallery-photo"
                               />
                               <div class="overlay flex flex-col">
@@ -979,8 +1032,8 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12662.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -996,7 +1049,7 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
+                                  class="portfolio_img"
                                   src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
                                   alt="gallery-photo"
                                 />
@@ -1014,26 +1067,13 @@
                         </div>
                       </div>
                       <div id="photography" class="tab-content hidden">
-                        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div class="basic_grid_class">
                           <div class="grid gap-4">
-                            <div class="image-container">
-                              <img
-                                class="h-auto max-w-full rounded-lg object-cover object-center"
-                                src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
-                                alt="gallery-photo"
-                              />
-                              <div class="overlay flex flex-col">
-                                <h3 class="text-xl font-bold">Figma Mockup</h3>
-                                <p class="text-12 font-normal text-gray-deep">
-                                  Figma mockup PSD editable
-                                </p>
-                              </div>
-                            </div>
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12667.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -1049,8 +1089,42 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12665.png"
+                                  alt="gallery-photo"
+                                />
+                                <div class="overlay flex flex-col">
+                                  <h3 class="text-xl font-bold">
+                                    Figma Mockup
+                                  </h3>
+                                  <p class="text-12 font-normal text-gray-deep">
+                                    Figma mockup PSD editable
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="image-container">
+                                <img
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12664.png"
+                                  alt="gallery-photo"
+                                />
+                                <div class="overlay flex flex-col">
+                                  <h3 class="text-xl font-bold">
+                                    Figma Mockup
+                                  </h3>
+                                  <p class="text-12 font-normal text-gray-deep">
+                                    Figma mockup PSD editable
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="image-container">
+                                <img
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12666.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -1065,10 +1139,23 @@
                             </div>
                           </div>
                           <div class="grid gap-4">
+                            <div class="image-container">
+                              <img
+                                class="portfolio_img"
+                                src="img/Rectangle 12663.png"
+                                alt="gallery-photo"
+                              />
+                              <div class="overlay flex flex-col">
+                                <h3 class="text-xl font-bold">Figma Mockup</h3>
+                                <p class="text-12 font-normal text-gray-deep">
+                                  Figma mockup PSD editable
+                                </p>
+                              </div>
+                            </div>
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
+                                  class="portfolio_img"
                                   src="img/Rectangle 12662.png"
                                   alt="gallery-photo"
                                 />
@@ -1085,25 +1172,8 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
-                                  alt="gallery-photo"
-                                />
-                                <div class="overlay flex flex-col">
-                                  <h3 class="text-xl font-bold">
-                                    Figma Mockup
-                                  </h3>
-                                  <p class="text-12 font-normal text-gray-deep">
-                                    Figma mockup PSD editable
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div class="image-container">
-                                <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://docs.material-tailwind.com/img/team-3.jpg"
+                                  class="portfolio_img"
+                                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -1120,12 +1190,25 @@
                         </div>
                       </div>
                       <div id="ui_ux_design" class="tab-content hidden">
-                        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+                        <div class="basic_grid_class">
                           <div class="grid gap-4">
+                            <div class="image-container">
+                              <img
+                                class="portfolio_img"
+                                src="img/Rectangle 12663.png"
+                                alt="gallery-photo"
+                              />
+                              <div class="overlay flex flex-col">
+                                <h3 class="text-xl font-bold">Figma Mockup</h3>
+                                <p class="text-12 font-normal text-gray-deep">
+                                  Figma mockup PSD editable
+                                </p>
+                              </div>
+                            </div>
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
+                                  class="portfolio_img"
                                   src="img/Rectangle 12662.png"
                                   alt="gallery-photo"
                                 />
@@ -1142,25 +1225,8 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
-                                  alt="gallery-photo"
-                                />
-                                <div class="overlay flex flex-col">
-                                  <h3 class="text-xl font-bold">
-                                    Figma Mockup
-                                  </h3>
-                                  <p class="text-12 font-normal text-gray-deep">
-                                    Figma mockup PSD editable
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div>
-                              <div class="image-container">
-                                <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://docs.material-tailwind.com/img/team-3.jpg"
+                                  class="portfolio_img"
+                                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -1175,24 +1241,11 @@
                             </div>
                           </div>
                           <div class="grid gap-4">
-                            <div class="image-container">
-                              <img
-                                class="h-auto max-w-full rounded-lg object-cover object-center"
-                                src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80"
-                                alt="gallery-photo"
-                              />
-                              <div class="overlay flex flex-col">
-                                <h3 class="text-xl font-bold">Figma Mockup</h3>
-                                <p class="text-12 font-normal text-gray-deep">
-                                  Figma mockup PSD editable
-                                </p>
-                              </div>
-                            </div>
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12667.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -1208,8 +1261,42 @@
                             <div>
                               <div class="image-container">
                                 <img
-                                  class="h-auto max-w-full rounded-lg object-cover object-center"
-                                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2940&amp;q=80"
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12665.png"
+                                  alt="gallery-photo"
+                                />
+                                <div class="overlay flex flex-col">
+                                  <h3 class="text-xl font-bold">
+                                    Figma Mockup
+                                  </h3>
+                                  <p class="text-12 font-normal text-gray-deep">
+                                    Figma mockup PSD editable
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="image-container">
+                                <img
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12664.png"
+                                  alt="gallery-photo"
+                                />
+                                <div class="overlay flex flex-col">
+                                  <h3 class="text-xl font-bold">
+                                    Figma Mockup
+                                  </h3>
+                                  <p class="text-12 font-normal text-gray-deep">
+                                    Figma mockup PSD editable
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="image-container">
+                                <img
+                                  class="portfolio_img"
+                                  src="img/Rectangle 12666.png"
                                   alt="gallery-photo"
                                 />
                                 <div class="overlay flex flex-col">
@@ -1228,7 +1315,7 @@
                     </div>
                   </div>
                   <!-- extra work -->
-                  <div class="grid grid-cols-1 md:grid-cols-2">
+                  <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div
                       class="relative flex items-center justify-center bg-black p-20"
                     >
@@ -1288,11 +1375,11 @@
                   </div>
                 </div>
                 <!-- Blog section -->
-                <div class="p-10">
-                  <h3 class="my-10 text-48 font-bold text-white">Blog</h3>
-                  <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+                <div class="p-8 md:p-10">
+                  <h3 class="title_text">Blog</h3>
+                  <div class="basic_grid_class">
                     <div class="grid gap-4">
-                      <div class="p-4">
+                      <div>
                         <div class="bg-black">
                           <img
                             class="blog_img"
@@ -1323,11 +1410,11 @@
                           </div>
                         </div>
                       </div>
-                      <div class="p-4">
+                      <div>
                         <div class="h-auto bg-black">
                           <img
                             class="blog_img"
-                            src="img/Rectangle 12667.png"
+                            src="img/Rectangle 12665.png"
                             alt="blog"
                           />
                           <div class="p-6">
@@ -1354,11 +1441,11 @@
                           </div>
                         </div>
                       </div>
-                      <div class="p-4">
+                      <div>
                         <div class="h-auto bg-black">
                           <img
                             class="blog_img"
-                            src="img/Rectangle 12662.png"
+                            src="img/Rectangle 12666.png"
                             alt="blog"
                           />
                           <div class="p-6">
@@ -1387,7 +1474,38 @@
                       </div>
                     </div>
                     <div class="grid gap-4">
-                      <div class="p-4">
+                      <div>
+                        <div class="h-full bg-black">
+                          <img
+                            class="blog_img"
+                            src="img/Rectangle 12663.png"
+                            alt="blog"
+                          />
+                          <div class="p-6">
+                            <h2
+                              class="title-font mb-1 text-12 font-medium text-gray-deep"
+                            >
+                              Photography | 28 Apr 2022
+                            </h2>
+                            <h1 class="mb-3 text-20 font-medium text-white">
+                              The artist vocation is to send light into the
+                              human heart.
+                            </h1>
+                            <p class="mb-3 text-12 font-normal text-gray-deep">
+                              Lorem Ipsum is simply dummy text the printing
+                              typesetting industry. Lorem Ipsum has been...
+                            </p>
+                            <div class="flex flex-wrap items-center">
+                              <div class="flex items-center gap-1">
+                                <hr class="w-5 border border-orange-500" />
+                                <h5>Posted By Daryl Smith</h5>
+                                <hr class="w-5 border border-orange-500" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
                         <div class="h-full bg-black">
                           <img
                             class="blog_img"
@@ -1418,42 +1536,11 @@
                           </div>
                         </div>
                       </div>
-                      <div class="p-4">
-                        <div class="h-full bg-black">
-                          <img
-                            class="blog_img"
-                            src="img/Rectangle 12667.png"
-                            alt="blog"
-                          />
-                          <div class="p-6">
-                            <h2
-                              class="title-font mb-1 text-12 font-medium text-gray-deep"
-                            >
-                              Photography | 28 Apr 2022
-                            </h2>
-                            <h1 class="mb-3 text-20 font-medium text-white">
-                              The artist vocation is to send light into the
-                              human heart.
-                            </h1>
-                            <p class="mb-3 text-12 font-normal text-gray-deep">
-                              Lorem Ipsum is simply dummy text the printing
-                              typesetting industry. Lorem Ipsum has been...
-                            </p>
-                            <div class="flex flex-wrap items-center">
-                              <div class="flex items-center gap-1">
-                                <hr class="w-5 border border-orange-500" />
-                                <h5>Posted By Daryl Smith</h5>
-                                <hr class="w-5 border border-orange-500" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="p-4">
+                      <div>
                         <div class="h-auto bg-black">
                           <img
                             class="blog_img"
-                            src="img/Rectangle 12662.png"
+                            src="img/Rectangle 12664.png"
                             alt="blog"
                           />
                           <div class="p-6">
@@ -1484,10 +1571,10 @@
                   </div>
                 </div>
                 <!-- pricing section -->
-                <div class="p-10">
-                  <h3 class="my-10 text-48 font-bold text-white">Pricing</h3>
-                  <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-                    <div class="p-4">
+                <div class="p-8 md:p-10">
+                  <h3 class="title_text">Pricing</h3>
+                  <div class="basic_grid_class">
+                    <div>
                       <div class="relative bg-black">
                         <div
                           class="absolute left-0 top-10 rounded-r-full bg-gradient-to-t from-yellow-600 to-yellow-900 px-6 py-2"
@@ -1539,7 +1626,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="p-4">
+                    <div>
                       <div class="relative bg-black">
                         <div
                           class="absolute left-0 top-10 rounded-r-full bg-gradient-to-t from-yellow-600 to-yellow-900 px-6 py-2"
@@ -1595,7 +1682,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="p-4">
+                    <div>
                       <div class="relative bg-black">
                         <div
                           class="absolute left-0 top-10 rounded-r-full bg-gradient-to-t from-yellow-600 to-yellow-900 px-6 py-2"
@@ -1651,7 +1738,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="p-4">
+                    <div>
                       <div class="relative bg-black">
                         <div
                           class="absolute left-0 top-10 rounded-r-full bg-gradient-to-t from-yellow-600 to-yellow-900 px-6 py-2"
@@ -1710,8 +1797,8 @@
                   </div>
                 </div>
                 <!-- contact section -->
-                <div class="p-10">
-                  <h3 class="my-10 text-48 font-bold text-white">Contact</h3>
+                <div class="p-8 md:p-10">
+                  <h3 class="title_text">Contact</h3>
                   <div class="space-y-3">
                     <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2">
                       <div class="flex w-full flex-col gap-1">
